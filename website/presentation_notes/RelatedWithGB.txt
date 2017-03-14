@@ -1,0 +1,29 @@
+This page using * GRID components.
+                * Responsive column.
+
+
+1. Screen shot in material design presentation.
+
+2. http://10.8.224.78:5010  'forgot password' page first.
+
+3. Login http://10.8.224.78:5010/ with
+  loginname : SHOP_250_IC2
+  password : TEST##100
+
+  my account ---> main page.
+    * Refresh 'my profile' button using 'material design' tooltips.
+    * Username, Emailaddress and button text using material design icon.
+    * 'Back','Change Password', 'Change Email Address', 'Contact us' using material design 'button'.
+      The point is 'card' + shaddow.
+
+  change password/change email page.
+    * Floating label
+    * Floating button with ripple
+    * Disabled button
+
+  404 page.
+    * google material design font :
+      font-family : Roboto,Helvetica,Arial,sans-serif
+
+  responsible UI.
+    web, ipad, iphone

@@ -1,0 +1,123 @@
+@media screen and (min-width: 981px) {
+  html {
+    font-size: 62.5%;
+  }
+}
+@media screen and (min-width: 641px) and (max-width: 980px) {
+  html {
+    font-size: 9px;
+  }
+}
+@media screen and (max-width: 640px) {
+  html {
+    font-size: 8px;
+  }
+}
+body {
+  background-color: #eee;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.6rem;
+}
+.container {
+  min-width: 260px;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+.title {
+  font-size: 3rem;
+  font-weight: 400;
+  text-align: center;
+}
+p {
+  margin: 0 0 2rem;
+  font-size:18px !important;
+}
+p:last-child {
+  margin-bottom: 0;
+}
+.cssui-accordion__switch {
+  display: block;
+  cursor: pointer;
+  text-decoration: none;
+}
+.cssui-accordion__layout {
+  display: none;
+}
+.cssui-accordion__section:target .cssui-accordion__layout {
+  display: block;
+}
+.cssui-accordion__section:target .cssui-accordion__switch {
+  cursor: default;
+}
+.cssui-accordion_mod-animation-fade-in-up .cssui-accordion__section:target .cssui-accordion__content {
+  animation: cssui-accordion .40s ease-out both;
+}
+@keyframes cssui-accordion {
+  0% {
+    transform: translate3d(0,100%,0);
+  }
+  100% {
+    transform: translate3d(0,0,0);
+  }
+}
+.cssui-accordion_skin-material .cssui-accordion__section {
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
+  margin-bottom: .5rem;
+}
+.cssui-accordion_skin-material .cssui-accordion__section:target .cssui-accordion__switch:after {
+  transform: translateZ(0) rotate(180deg);
+}
+.cssui-accordion_skin-material .cssui-accordion__switch {
+  position: relative;
+  padding: 1rem 5rem 1rem 1rem;
+  border: .5rem solid transparent;
+}
+.cssui-accordion_skin-material .cssui-accordion__switch:after {
+  content: "";
+  width: 2rem;
+  height: 100%;
+  background: url("https://stas-melnikov.ru/demo-icons/arrow-down-white.svg") no-repeat 50% 50% / contain;
+  position: absolute;
+  right: 1%;
+  top: 0;
+  transform: translateZ(0) rotate(0);
+  transition: transform .3s ease-out;
+}
+.cssui-accordion_skin-material .cssui-accordion__switch:focus {
+  outline: none;
+}
+.cssui-accordion_skin-material .cssui-accordion__title {
+  margin: 0;
+  font-weight: 300;
+  font-size: 2rem;
+}
+.cssui-accordion_skin-material .cssui-accordion__layout {
+  overflow: hidden;
+  padding: 1rem 1.5rem;
+}
+.cssui-accordion_skin-material_mod-dark-blue .cssui-accordion__section:target .cssui-accordion__switch {
+  background-color: #3F51B5;
+}
+.cssui-accordion_skin-material_mod-dark-blue .cssui-accordion__section:target .cssui-accordion__switch:active {
+  border-color: #3F51B5;
+}
+.cssui-accordion_skin-material_mod-dark-blue .cssui-accordion__switch {
+  background-color: #303F9F;
+  color: #fff;
+}
+.cssui-accordion_skin-material_mod-dark-blue .cssui-accordion__switch:focus {
+  border-color: #C5CAE9;
+}
+.cssui-accordion_skin-material_mod-dark-blue .cssui-accordion__switch:active {
+  border-color: #303F9F;
+}
+.cssui-accordion_skin-material_mod-dark-blue .cssui-accordion__layout {
+  background-color: #fff;
+}
+
+
+
+/* who start to think about it*/
